@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Thu 15 Jan 2026 08:42:52 PM +03 +03
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/emre/project/proje/full_adder_tb/schematic/sch.oa.cdslck
-TimeEditLocked                 Thu 15 Jan 2026 09:34:33 PM +03 +03
+FilePathUsedToEditLock         /home/emre/project/proje/data.dm.cdslck
+TimeEditLocked                 Thu 15 Jan 2026 09:59:01 PM +03 +03
