@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Thu Jan 15 22:19:00 2026-->
+<!--Created by Custom Compiler (TM), build , on Sun Jan 18 00:34:06 2026-->
 <file-format name="stateCategory" version="1.0">
  <collection name="analyses">
   <object name="analyses" type="saAnalysis" version="1">
@@ -15,7 +15,7 @@
    <attribute name="dynamicParameters" type="giBoolean" value="0"/>
    <attribute name="enabled" type="giBoolean" value="1"/>
    <collection name="instancesList"/>
-   <attribute name="instancesListExp" type="giString" value="false"/>
+   <attribute name="instancesListExp" type="giString" value="0"/>
    <attribute name="name" type="giString" value="tran"/>
    <attribute name="noiseEnableSel" type="giString" value="Enable"/>
    <attribute name="noiseSeedStart" type="giString" value=""/>
@@ -246,7 +246,7 @@
    <attribute name="soa" type="giBoolean" value="0"/>
    <attribute name="start" type="giString" value="0"/>
    <attribute name="step" type="giString" value="0.1n"/>
-   <attribute name="stop" type="giString" value="100n"/>
+   <attribute name="stop" type="giString" value="400n"/>
    <attribute name="tnaSeedSel" type="giString" value="Fixed Value"/>
    <attribute name="tnaSeedVal" type="giString" value=""/>
    <attribute name="tnafmax" type="giString" value="0"/>
