@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sun 18 Jan 2026 01:12:28 PM +03 +03
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/emre/project/proje/xor/layout/layout.oa.cdslck
-TimeEditLocked                 Sun 18 Jan 2026 02:12:32 PM +03 +03
+FilePathUsedToEditLock         /home/emre/project/proje/2x1mux/layout#2econfig/config.xml.cdslck
+TimeEditLocked                 Sun 18 Jan 2026 06:01:27 PM +03 +03
