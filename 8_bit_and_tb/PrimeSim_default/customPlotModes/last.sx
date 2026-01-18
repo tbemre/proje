@@ -1,0 +1,66 @@
+### WaveView session file (version X-2025.06-SP1-1 build Sep 27, ) ###
+### saved at 17:22:44 on Sat Jan 17 2026 ###
+wdf 0 "/home/oguz/simulation/proje_logical_and,8_bit_and_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=tran:tran" "atype=tran:tran" 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 name_width=66 "name=tran" showtitle=true "wvtitle=proje_logical_and:8_bit_and_tb:default:tran" 
+  panel_begin linear pidx=0 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net36<7>)" attr=129:7:1:0 user_color=0:255:102 alias="v(/net36<7>)" disp=show 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(a<7>)" attr=128:0:1:0 user_color=204:0:255 alias="v(/A<7>)" disp=show 
+  panel_end
+  panel_begin linear pidx=2 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(b<7>)" attr=3:0:1:0 alias="v(/B<7>)" disp=show 
+  panel_end
+  panel_begin linear pidx=3 nvpos=0 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(b<6>)" attr=3:1:1:0 alias="v(/B<6>)" disp=show 
+    line src=wdf lidx=1 fidx=0 "delim=." sigtype=1 "name=v(b<5>)" attr=3:2:1:0 alias="v(/B<5>)" disp=show 
+    line src=wdf lidx=2 fidx=0 "delim=." sigtype=1 "name=v(b<4>)" attr=3:3:1:0 alias="v(/B<4>)" disp=show 
+    line src=wdf lidx=3 fidx=0 "delim=." sigtype=1 "name=v(b<3>)" attr=3:4:1:0 alias="v(/B<3>)" disp=show 
+    line src=wdf lidx=4 fidx=0 "delim=." sigtype=1 "name=v(b<2>)" attr=3:5:1:0 alias="v(/B<2>)" disp=show 
+    line src=wdf lidx=5 fidx=0 "delim=." sigtype=1 "name=v(b<1>)" attr=3:6:1:0 alias="v(/B<1>)" disp=show 
+    line src=wdf lidx=6 fidx=0 "delim=." sigtype=1 "name=v(b<0>)" attr=3:7:1:0 alias="v(/B<0>)" disp=show 
+    line src=wdf lidx=7 fidx=0 "delim=." sigtype=1 "name=v(a<6>)" attr=128:0:1:0 user_color=204:0:255 alias="v(/A<6>)" disp=show 
+    line src=wdf lidx=8 fidx=0 "delim=." sigtype=1 "name=v(a<5>)" attr=128:1:1:0 user_color=204:0:255 alias="v(/A<5>)" disp=show 
+    line src=wdf lidx=9 fidx=0 "delim=." sigtype=1 "name=v(a<4>)" attr=128:2:1:0 user_color=204:0:255 alias="v(/A<4>)" disp=show 
+    line src=wdf lidx=10 fidx=0 "delim=." sigtype=1 "name=v(a<3>)" attr=128:3:1:0 user_color=204:0:255 alias="v(/A<3>)" disp=show 
+    line src=wdf lidx=11 fidx=0 "delim=." sigtype=1 "name=v(a<2>)" attr=128:4:1:0 user_color=204:0:255 alias="v(/A<2>)" disp=show 
+    line src=wdf lidx=12 fidx=0 "delim=." sigtype=1 "name=v(a<1>)" attr=128:5:1:0 user_color=204:0:255 alias="v(/A<1>)" disp=show 
+    line src=wdf lidx=13 fidx=0 "delim=." sigtype=1 "name=v(a<0>)" attr=128:6:1:0 user_color=204:0:255 alias="v(/A<0>)" disp=show 
+    line src=wdf lidx=14 fidx=0 "delim=." sigtype=1 "name=v(net36<6>)" attr=129:0:1:0 user_color=0:255:102 alias="v(/net36<6>)" disp=show 
+    line src=wdf lidx=15 fidx=0 "delim=." sigtype=1 "name=v(net36<5>)" attr=129:0:1:0 user_color=0:255:102 alias="v(/net36<5>)" disp=show 
+    line src=wdf lidx=16 fidx=0 "delim=." sigtype=1 "name=v(net36<4>)" attr=129:1:1:0 user_color=0:255:102 alias="v(/net36<4>)" disp=show 
+    line src=wdf lidx=17 fidx=0 "delim=." sigtype=1 "name=v(net36<3>)" attr=129:2:1:0 user_color=0:255:102 alias="v(/net36<3>)" disp=show 
+    line src=wdf lidx=18 fidx=0 "delim=." sigtype=1 "name=v(net36<2>)" attr=129:3:1:0 user_color=0:255:102 alias="v(/net36<2>)" disp=show 
+    line src=wdf lidx=19 fidx=0 "delim=." sigtype=1 "name=v(net36<1>)" attr=129:4:1:0 user_color=0:255:102 alias="v(/net36<1>)" disp=show 
+    line src=wdf lidx=20 fidx=0 "delim=." sigtype=1 "name=v(net36<0>)" attr=129:5:1:0 user_color=0:255:102 alias="v(/net36<0>)" disp=show 
+  panel_end
+waveview_end
+browserClosed
+
+#Custom Plot Section
+simulation_begin test=default history=1 idx=1001001
+run_type 1
+view_list
+  1 tran
+end_view_list
+probe_list
+  v(/B<7:0>) alias=
+  v(/A<7:0>) alias=
+  v(/net36<7:0>) alias=
+end_probe_list
+original_sim
+sim_id=default
+history_point=1
+sim_idx=1001001
+sim_dir=/home/oguz/simulation/proje_logical_and,8_bit_and_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results
+from_virtuoso=0
+is_output=1
+is_mtb=0
+hasViewer=0
+{"sim_id":"default","sae_session":"saeSession3","sae_session_desc":"","directory":"/home/oguz/simulation/proje_logical_and,8_bit_and_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results","results_directory":"~/simulation","results_absdirectory":"/home/oguz/simulation","post_results_dir":"/home/oguz/simulation/proje_logical_and,8_bit_and_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results","save_post_results_in_session":"0","is_mc_multiple_run":"0","is_sim_sweep_run":"0","is_data_driven_sweep":"false","runDirDelimiter":",","test_suite_info":"proje_logical_and:8_bit_and_tb:schematic","history_index":"1","history_name":"history_1","history_desc":"Run Simulation","is_mtb":"0","id":"1001001","child":"0","description":"","design_str":"proje_logical_and:8_bit_and_tb:schematic","simulator":"PrimeSim","newResultsFormat":"0","is_initial":"0","sim_wave_removed":"0","chart_list":[],"isSpecialTime":"0","is_scratch_run":"0","isSaeAging":"0","saeAgingSimMode":"3","sonoma":"1","sonomaInc":"0","is_simulation_running":"false","incPartial":"full","sim_netlist_removed":"0","modelIncPath":"","isbreviate_historyname":"false","history_check":"false","ischange_historyname":"false","autoPlot":"1","isDirPlot":"0","invokeFrom":"SIM_DONE","save_format":"","incomplete_type":"","corparams":"","exportImageSize":"636*254","isWorstCaseAnalysis":"0","dspfIncludeOptions":"0","sweepUseDesignVar":"0","hasMSIPAceScripts":"0","defaultParam":"","equation_list":[{"equa_id":"equa#0","index":"1","equa_name":"","equa_schem":"","type":"","resultType":"","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"true","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"0","description":"","saveImage":"0","precision":"0","poor":"","poorHigh":"","poorLow":"","poorType":"","measExpr":"","eqnIdx":"","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"","orgErrMsg":"","suffix":"","imageTitle":""}],"probe_list":[{"probe_id":"probe#0","index":"2","signal_alias":"","signal_name":"v(/B<7:0>)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"255:0:0","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"1","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"1","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#1","index":"3","signal_alias":"","signal_name":"v(/A<7:0>)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"204:0:255","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"2","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"2","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#2","index":"4","signal_alias":"","signal_name":"v(/net36<7:0>)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"0:255:102","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"3","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"3","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"}],"ace_list":[],"model_list":[{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:BJT_12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:DIODE"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_12_HVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_12_LVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_25"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_33"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_12_HVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_12_LVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_25"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_12_HVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_12_LVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_25"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_12_HVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_12_LVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_25"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_33"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_12_HVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_12_LVT"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_25"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_33"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:cap"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:ind"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos12"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos12_hvt"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos12_lvt"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos25"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos_33"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:res_h"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:res_l"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:res_t"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:resistor"},{"file":"/home/oguz/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:var"}],"globalModel_list":[],"globalTemperature_list":[{"file":"25:Celsius"}],"design_variables_list":[],"corner_group_params_list":[],"analyses_list":[["tran","{Transient Analysis: Stop Time: 100n }"]],"modelGrp_list":[],"corner_list":[],"no_value_corner_param_list":[],"monte_list":[],"monteSigma":"","targetSigma":"","monteUseDesignVar":"0","monteUseIterList":"","sweep_list":[],"job_list":[]}
+end_original_sim
+original_map
+{"sae_session":"saeSession3","map_list":[{"schemName":"v(/B<7:0>)","waveName":"v(b<7>) v(b<6>) v(b<5>) v(b<4>) v(b<3>) v(b<2>) v(b<1>) v(b<0>)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false},{"schemName":"v(/A<7:0>)","waveName":"v(a<7>) v(a<6>) v(a<5>) v(a<4>) v(a<3>) v(a<2>) v(a<1>) v(a<0>)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"3","is_expression":false},{"schemName":"v(/net36<7:0>)","waveName":"v(net36<7>) v(net36<6>) v(net36<5>) v(net36<4>) v(net36<3>) v(net36<2>) v(net36<1>) v(net36<0>)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"4","is_expression":false}],"result_list":[{"file_name":"resultsMap.xml","resultID":"resFile0"},{"file_name":"postResultsMap.xml","is_post":"TRUE"}]}
+end_original_map
+simulation_end
