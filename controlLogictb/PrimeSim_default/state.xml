@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<!--Created by Custom Compiler (TM), build , on Sat Jan 17 15:36:11 2026-->
+<file-format version="1.0" name="stateData">
+ <attribute value="0" type="giBoolean" name="dcop_splitted"/>
+ <attribute value="" type="giString" name="description"/>
+ <attribute value="proje/controlLogictb/schematic" type="dmCellView" name="design"/>
+ <attribute value="" type="giString" name="dspfInfo"/>
+ <attribute value="1" type="giBoolean" name="enabled"/>
+ <attribute value="0" type="giBoolean" name="enabledJobClass"/>
+ <attribute value="PrimeSim" type="giString" name="migratedSimulator"/>
+ <attribute value="PrimeSim_default" type="giString" name="name"/>
+ <attribute value="esmalib/controlLogictb/PrimeSim_default" type="dmCellView" name="openaccessState"/>
+ <attribute value="PrimeSim" type="giString" name="simulator"/>
+ <comment/>
+ <resultsDir>~/simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>
