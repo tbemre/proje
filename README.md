@@ -4,10 +4,10 @@
 - [ ] Adder (8-bit RCA) - schematic + layout
 - [ ] Subtractor - schematic + layout
 - [ ] Multiplier - schematic + layout
-- [ ] AND operation - schematic + layout
-- [ ] OR operation - schematic + layout
+- [x] AND operation - schematic + layout
+- [x] OR operation - schematic + layout
 - [ ] XOR operation - schematic + layout
-- [ ] NOT operation - schematic + layout
+- [x] NOT operation - schematic + layout
 - [x] Left shifter - schematic + layout
 - [x] Right shifter - schematic + layout
 - [ ] Opcode decode / control logic - schematic + layout
