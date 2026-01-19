@@ -6,7 +6,7 @@
 - [ ] Multiplier - schematic + layout
 - [x] AND operation - schematic + layout
 - [x] OR operation - schematic + layout
-- [ ] XOR operation - schematic + layout
+- [x] XOR operation - schematic + layout
 - [x] NOT operation - schematic + layout
 - [x] Left shifter - schematic + layout
 - [x] Right shifter - schematic + layout
