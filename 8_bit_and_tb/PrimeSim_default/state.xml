@@ -1,16 +1,16 @@
 <?xml version='1.0'?>
-<!--Created by Custom Compiler (TM), build , on Sat Jan 17 17:22:50 2026-->
+<!--Created by Custom Compiler (TM), build , on Mon Jan 19 22:03:39 2026-->
 <file-format version="1.0" name="stateData">
- <attribute name="dcop_splitted" value="0" type="giBoolean"/>
- <attribute name="description" value="" type="giString"/>
- <attribute name="design" value="proje/8_bit_and_tb/schematic" type="dmCellView"/>
- <attribute name="dspfInfo" value="" type="giString"/>
- <attribute name="enabled" value="1" type="giBoolean"/>
- <attribute name="enabledJobClass" value="0" type="giBoolean"/>
- <attribute name="migratedSimulator" value="PrimeSim" type="giString"/>
- <attribute name="name" value="PrimeSim_default" type="giString"/>
- <attribute name="openaccessState" value="proje/8_bit_and_tb/PrimeSim_default" type="dmCellView"/>
- <attribute name="simulator" value="PrimeSim" type="giString"/>
+ <attribute type="giBoolean" value="0" name="dcop_splitted"/>
+ <attribute type="giString" value="" name="description"/>
+ <attribute type="dmCellView" value="proje/8_bit_and_tb/config" name="design"/>
+ <attribute type="giString" value="" name="dspfInfo"/>
+ <attribute type="giBoolean" value="1" name="enabled"/>
+ <attribute type="giBoolean" value="0" name="enabledJobClass"/>
+ <attribute type="giString" value="PrimeSim" name="migratedSimulator"/>
+ <attribute type="giString" value="PrimeSim_default" name="name"/>
+ <attribute type="dmCellView" value="proje/8_bit_and_tb/PrimeSim_default" name="openaccessState"/>
+ <attribute type="giString" value="PrimeSim" name="simulator"/>
  <comment/>
  <resultsDir>~/simulation</resultsDir>
  <enableTestbenchHistory>0</enableTestbenchHistory>
