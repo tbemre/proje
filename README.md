@@ -3,7 +3,7 @@
 ## SCHEMATIC + LAYOUT
 - [ ] Adder (8-bit RCA) - schematic + layout
 - [ ] Subtractor - schematic + layout
-- [ ] Multiplier - schematic + layout
+- [x] Multiplier - schematic + layout
 - [x] AND operation - schematic + layout
 - [x] OR operation - schematic + layout
 - [x] XOR operation - schematic + layout
