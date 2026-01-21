@@ -1,8 +1,8 @@
 # ELEC 451/540 - 8-Bit ALU (Synopsys 90nm) - Checklist
 
 ## SCHEMATIC + LAYOUT
-- [ ] Adder (8-bit RCA) - schematic + layout
-- [ ] Subtractor - schematic + layout
+- [x] Adder (8-bit RCA) - schematic + layout
+- [x] Subtractor - schematic + layout
 - [x] Multiplier - schematic + layout
 - [x] AND operation - schematic + layout
 - [x] OR operation - schematic + layout
@@ -10,9 +10,9 @@
 - [x] NOT operation - schematic + layout
 - [x] Left shifter - schematic + layout
 - [x] Right shifter - schematic + layout
-- [ ] Opcode decode / control logic - schematic + layout
-- [ ] Output selector (mux) - schematic + layout
-- [ ] Flags logic (Zero, Carry, Overflow, Sign) - schematic + layout
+- [x] Opcode decode / control logic - schematic + layout
+- [x] Output selector (mux) - schematic + layout
+- [x] Flags logic (Zero, Carry, Overflow, Sign) - schematic + layout
 - [ ] Top-level ALU (integration) - schematic + layout
 - [ ] Post-layout (PEX) simulation (top-level)
 
