@@ -1,0 +1,85 @@
+### WaveView session file (version X-2025.06-SP1-1 build Sep 27, ) ###
+### saved at 01:51:12 on Thu Jan 22 2026 ###
+wdf 0 "/home/emre/simulation/proje,top_level_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=tran:tran" "atype=tran:tran" 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=121 mntr_b=191 name_width=106 mcur=2.05718027062418e-07 vc=cur-pnl "name=tran" showtitle=true "wvtitle=proje:top_level_tb:default:tran" 
+  panel_begin linear pidx=0 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net2)" attr=2:0:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<6>)" attr=1:1:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=2 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<5>)" attr=0:2:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=3 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<4>)" attr=8:3:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=4 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<3>)" attr=7:4:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=5 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<2>)" attr=6:5:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=6 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<1>)" attr=5:6:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=7 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net1<0>)" attr=4:7:1:0 alias="out" disp=show 
+  panel_end
+  panel_begin linear pidx=8 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net2)" attr=128:0:1:0 user_color=0:255:102 alias="N" disp=show 
+  panel_end
+  panel_begin linear pidx=9 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net3)" attr=129:0:1:0 user_color=204:255:0 alias="Z" disp=show 
+  panel_end
+  panel_begin linear pidx=10 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net4)" attr=130:1:1:0 user_color=0:102:255 alias="V" disp=show 
+  panel_end
+  panel_begin linear pidx=11 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(net5)" attr=131:2:1:0 user_color=255:153:0 alias="C" disp=show 
+  panel_end
+  panel_begin linear pidx=12 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(oc<3>)" attr=132:3:1:0 user_color=204:0:255 alias="opcode" disp=show 
+  panel_end
+  panel_begin linear pidx=13 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(oc<2>)" attr=3:4:1:0 alias="opcode" disp=show 
+  panel_end
+  panel_begin linear pidx=14 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(oc<1>)" attr=2:5:1:0 alias="opcode" disp=show 
+  panel_end
+  panel_begin linear pidx=15 spath=name+file xlabel="sec" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(oc<0>)" attr=1:6:1:0 alias="opcode" disp=show 
+  panel_end
+waveview_end
+browserClosed
+
+#Custom Plot Section
+simulation_begin test=default history=1 idx=1001001
+run_type 1
+view_list
+  1 tran
+end_view_list
+probe_list
+  v(/net1<7:0>) alias=out
+  v(/net2) alias=N
+  v(/net3) alias=Z
+  v(/net4) alias=V
+  v(/net5) alias=C
+  v(/oc<3:0>) alias=opcode
+end_probe_list
+original_sim
+sim_id=default
+history_point=1
+sim_idx=1001001
+sim_dir=/home/emre/simulation/proje,top_level_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results
+from_virtuoso=0
+is_output=1
+is_mtb=0
+hasViewer=0
+{"sim_id":"default","sae_session":"saeSession2","sae_session_desc":"","directory":"/home/emre/simulation/proje,top_level_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results","results_directory":"~/simulation","results_absdirectory":"/home/emre/simulation","post_results_dir":"/home/emre/simulation/proje,top_level_tb,schematic/history_1/simulation/default/PrimeSimSPICE/nominal/results","save_post_results_in_session":"0","is_mc_multiple_run":"0","is_sim_sweep_run":"0","is_data_driven_sweep":"false","runDirDelimiter":",","test_suite_info":"proje:top_level_tb:schematic","history_index":"1","history_name":"history_1","history_desc":"Run Simulation","is_mtb":"0","id":"1001001","child":"0","description":"","design_str":"proje:top_level_tb:schematic","simulator":"PrimeSim","newResultsFormat":"0","is_initial":"0","sim_wave_removed":"0","chart_list":[],"isSpecialTime":"0","is_scratch_run":"0","isSaeAging":"0","saeAgingSimMode":"3","sonoma":"1","sonomaInc":"0","is_simulation_running":"false","incPartial":"full","sim_netlist_removed":"0","modelIncPath":"","isbreviate_historyname":"false","history_check":"false","ischange_historyname":"false","autoPlot":"1","isDirPlot":"0","invokeFrom":"SIM_DONE","save_format":"","incomplete_type":"","corparams":"","exportImageSize":"636*254","isWorstCaseAnalysis":"0","dspfIncludeOptions":"0","sweepUseDesignVar":"0","hasMSIPAceScripts":"0","defaultParam":"","equation_list":[{"equa_id":"equa#0","index":"1","equa_name":"","equa_schem":"","type":"","resultType":"","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"true","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"0","description":"","saveImage":"0","precision":"0","poor":"","poorHigh":"","poorLow":"","poorType":"","measExpr":"","eqnIdx":"","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"","orgErrMsg":"","suffix":"","imageTitle":""}],"probe_list":[{"probe_id":"probe#0","index":"2","signal_alias":"out","signal_name":"v(/net1<7:0>)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"255:0:0","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"1","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"1","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#1","index":"3","signal_alias":"N","signal_name":"v(/net2)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"0:255:102","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"2","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"2","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#2","index":"4","signal_alias":"Z","signal_name":"v(/net3)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"204:255:0","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"3","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"3","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#3","index":"5","signal_alias":"V","signal_name":"v(/net4)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"0:102:255","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"4","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"4","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#4","index":"6","signal_alias":"C","signal_name":"v(/net5)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"255:153:0","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"5","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"5","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#5","index":"7","signal_alias":"opcode","signal_name":"v(/oc<3:0>)","signal_type":"net","resultType":"tran","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"204:0:255","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"6","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"6","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"}],"ace_list":[],"model_list":[{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:BJT_12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:DIODE"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_12_HVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_12_LVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_25"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FF_33"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_12_HVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_12_LVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:FS_25"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_12_HVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_12_LVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SF_25"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_12_HVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_12_LVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_25"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:SS_33"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_12_HVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_12_LVT"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_25"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:TT_33"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:cap"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:ind"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos12"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos12_hvt"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos12_lvt"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos25"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:mos_33"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:res_h"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:res_l"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:res_t"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:resistor"},{"file":"/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib:var"}],"globalModel_list":[],"globalTemperature_list":[{"file":"25:Celsius"}],"design_variables_list":[],"corner_group_params_list":[],"analyses_list":[["tran","{Transient Analysis: Stop Time: 300n }"]],"modelGrp_list":[],"corner_list":[],"no_value_corner_param_list":[],"monte_list":[],"monteSigma":"","targetSigma":"","monteUseDesignVar":"0","monteUseIterList":"","sweep_list":[],"job_list":[]}
+end_original_sim
+original_map
+{"sae_session":"saeSession2","map_list":[{"schemName":"v(/net1<7:0>)","waveName":"v(net2) v(net1<6>) v(net1<5>) v(net1<4>) v(net1<3>) v(net1<2>) v(net1<1>) v(net1<0>)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false},{"schemName":"v(/net2)","waveName":"v(net2)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"3","is_expression":false},{"schemName":"v(/net3)","waveName":"v(net3)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"4","is_expression":false},{"schemName":"v(/net4)","waveName":"v(net4)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"5","is_expression":false},{"schemName":"v(/net5)","waveName":"v(net5)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"6","is_expression":false},{"schemName":"v(/oc<3:0>)","waveName":"v(oc<3>) v(oc<2>) v(oc<1>) v(oc<0>)","resultID":"resFile0","resultType":"tran","analysisName":"tran","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"7","is_expression":false}],"result_list":[{"file_name":"resultsMap.xml","resultID":"resFile0"},{"file_name":"postResultsMap.xml","is_post":"TRUE"}]}
+end_original_map
+simulation_end
