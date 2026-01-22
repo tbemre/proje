@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sat Jan 17 23:48:25 2026-->
+<!--Created by Custom Compiler (TM), build , on Thu Jan 22 15:09:14 2026-->
 <file-format name="stateCategory" version="1.0">
  <collection name="options">
   <object name="options" type="saOption" version="1">
@@ -2419,9 +2419,9 @@
    <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
    <attribute name="localized" type="giBoolean" value="0"/>
    <attribute name="name" type="giString" value="primesim_spfinst"/>
-   <attribute name="simDefault" type="giString" value="0"/>
+   <attribute name="simDefault" type="giString" value="1"/>
    <attribute name="state" type="giString" value="used"/>
-   <attribute name="value" type="giString" value="0"/>
+   <attribute name="value" type="giString" value="1"/>
   </object>
   <object name="options" type="saOption" version="1">
    <attribute name="enabled" type="giString" value="no"/>
@@ -3760,9 +3760,9 @@
    <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
    <attribute name="localized" type="giBoolean" value="0"/>
    <attribute name="name" type="giString" value="autostop"/>
-   <attribute name="simDefault" type="giString" value="no"/>
+   <attribute name="simDefault" type="giString" value="0"/>
    <attribute name="state" type="giString" value="used"/>
-   <attribute name="value" type="giString" value="no"/>
+   <attribute name="value" type="giString" value="0"/>
   </object>
   <object name="options" type="saOption" version="1">
    <attribute name="enabled" type="giString" value="no"/>
@@ -3898,15 +3898,6 @@
    <attribute name="simDefault" type="giString" value="1.0"/>
    <attribute name="state" type="giString" value="used"/>
    <attribute name="value" type="giString" value="1.0"/>
-  </object>
-  <object name="options" type="saOption" version="1">
-   <attribute name="enabled" type="giString" value="no"/>
-   <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
-   <attribute name="localized" type="giBoolean" value="0"/>
-   <attribute name="name" type="giString" value="primesim_runlvl_mode"/>
-   <attribute name="simDefault" type="giString" value="0"/>
-   <attribute name="state" type="giString" value="used"/>
-   <attribute name="value" type="giString" value="0"/>
   </object>
   <object name="options" type="saOption" version="1">
    <attribute name="enabled" type="giString" value="no"/>

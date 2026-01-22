@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sat Jan 17 23:48:25 2026-->
+<!--Created by Custom Compiler (TM), build , on Thu Jan 22 15:09:14 2026-->
 <file-format name="stateCategory" version="1.0">
  <object name="models" type="saModelSetup" version="1">
   <attribute name="includeGlobal" type="giBoolean" value="1"/>
@@ -7,187 +7,187 @@
   <collection name="modelFiles">
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="BJT_12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="DIODE"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FF_12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FF_12_HVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FF_12_LVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FF_25"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FF_33"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FS_12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FS_12_HVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FS_12_LVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="FS_25"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SF_12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SF_12_HVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SF_12_LVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SF_25"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SS_12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SS_12_HVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SS_12_LVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SS_25"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="SS_33"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="TT_12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="TT_12_HVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="TT_12_LVT"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="TT_25"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="TT_33"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="cap"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="ind"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="mos12"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="mos12_hvt"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="mos12_lvt"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="mos25"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="mos_33"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="res_h"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="res_l"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="res_t"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="resistor"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
     <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="/home/sonmez/synopsys/pdk/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
+    <attribute name="filename" type="giString" value="/home/emre/SAED90nm_PDK_10222017/hspice/SAED90nm.lib"/>
     <attribute name="section" type="giString" value="var"/>
    </object>
   </collection>

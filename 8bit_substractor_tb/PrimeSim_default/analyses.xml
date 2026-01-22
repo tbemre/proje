@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sat Jan 17 23:48:25 2026-->
+<!--Created by Custom Compiler (TM), build , on Thu Jan 22 15:09:14 2026-->
 <file-format name="stateCategory" version="1.0">
  <collection name="analyses">
   <object name="analyses" type="saAnalysis" version="1">
+   <attribute name="biasChk" type="giBoolean" value="0"/>
+   <attribute name="biasChkCommonFmt" type="giBoolean" value="0"/>
    <attribute name="card" type="giString" value=""/>
    <attribute name="definition" type="giString" value="tran"/>
    <attribute name="description" type="giString" value=""/>
@@ -13,7 +15,7 @@
    <attribute name="dynamicParameters" type="giBoolean" value="0"/>
    <attribute name="enabled" type="giBoolean" value="1"/>
    <collection name="instancesList"/>
-   <attribute name="instancesListExp" type="giString" value="0"/>
+   <attribute name="instancesListExp" type="giString" value="false"/>
    <attribute name="name" type="giString" value="tran"/>
    <attribute name="noiseEnableSel" type="giString" value="Enable"/>
    <attribute name="noiseSeedStart" type="giString" value=""/>
@@ -30,15 +32,6 @@
      <attribute name="simDefault" type="giString" value="0"/>
      <attribute name="state" type="giString" value="used"/>
      <attribute name="value" type="giString" value="0"/>
-    </object>
-    <object name="options" type="saOption" version="1">
-     <attribute name="enabled" type="giString" value="no"/>
-     <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
-     <attribute name="localized" type="giBoolean" value="0"/>
-     <attribute name="name" type="giString" value="autostop"/>
-     <attribute name="simDefault" type="giString" value="no"/>
-     <attribute name="state" type="giString" value="used"/>
-     <attribute name="value" type="giString" value="no"/>
     </object>
     <object name="options" type="saOption" version="1">
      <attribute name="enabled" type="giString" value="no"/>
@@ -253,12 +246,12 @@
    <attribute name="soa" type="giBoolean" value="0"/>
    <attribute name="start" type="giString" value="0"/>
    <attribute name="step" type="giString" value="0.1n"/>
-   <attribute name="stop" type="giString" value="10u"/>
+   <attribute name="stop" type="giString" value="50n"/>
    <attribute name="tnaSeedSel" type="giString" value="Fixed Value"/>
-   <attribute name="tnaSeedVal" type="giString" value="1"/>
-   <attribute name="tnafmax" type="giString" value=""/>
+   <attribute name="tnaSeedVal" type="giString" value=""/>
+   <attribute name="tnafmax" type="giString" value="0"/>
    <attribute name="tnafmin" type="giString" value=""/>
-   <attribute name="tnascale" type="giString" value=""/>
+   <attribute name="tnascale" type="giString" value="1.0"/>
    <attribute name="tnatstart" type="giString" value=""/>
    <attribute name="tnatstop" type="giString" value=""/>
    <attribute name="tranNoise" type="giBoolean" value="0"/>
